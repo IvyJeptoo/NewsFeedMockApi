@@ -1,0 +1,54 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "Kenya",
+            "profilePicture": "https://images.pexels.com/photos/137132/pexels-photo-137132.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        },
+        {
+            "id": 2,
+            "username": "Norway",
+            "profilePicture": "https://images.pexels.com/photos/261031/pexels-photo-261031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+        },
+        {
+            "id": 3,
+            "username": "India",
+            "profilePicture": "https://images.pexels.com/photos/754104/pexels-photo-754104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+        },
+        {
+            "id": 4,
+            "username": "Ethiopia",
+            "profilePicture": "https://images.pexels.com/photos/261403/pexels-photo-261403.jpeg?auto=compress&cs=tinysrgb&w=1600"
+
+        },
+        {
+            "id": 5,
+            "username": "Egypt",
+            "profilePicture": "https://images.pexels.com/photos/533937/pexels-photo-533937.jpeg?auto=compress&cs=tinysrgb&w=1600"
+
+        }        
+
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "userId": 1,
+            "activity":"Kenya posted a new image",
+            "image":"https://images.pexels.com/photos/1266831/pexels-photo-1266831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+
+
+        },
+        {
+
+        },
+        {
+
+        },
+        {
+
+        }
+    ]
+}
