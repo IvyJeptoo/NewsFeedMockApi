@@ -1,54 +1,207 @@
 {
-    "users": [
+  "users": [
+    {
+      "id": 0,
+      "username": "Greg",
+      "profilePicture": "https://images.pexels.com/photos/137132/pexels-photo-137132.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+      "id": 1,
+      "username": "Lilo",
+      "profilePicture": "https://images.pexels.com/photos/261031/pexels-photo-261031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=7"
+    },
+    {
+      "id": 2,
+      "username": "Zoro",
+      "profilePicture": "https://images.pexels.com/photos/754104/pexels-photo-754104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 3,
+      "username": "Stitch",
+      "profilePicture": "https://images.pexels.com/photos/261403/pexels-photo-261403.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+      "id": 4,
+      "username": "Coco",
+      "profilePicture": "https://images.pexels.com/photos/533937/pexels-photo-533937.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    }
+  ],
+  "feedActivity": [
+    {
+      "id": 2,
+      "userId": 0,
+      "subject": "Lilo",
+      "action": "commented on",
+      "object": "image",
+      "owner": "Zoro",
+      "info": "",
+      "message": "My Nigga..",
+      "date": 1658635951605
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "subject": "Lilo",
+      "action": "liked",
+      "upvote": "",
+      "owner": "Stitch",
+      "object": "image",
+      "date": 1658655877207
+    },
+    {
+      "userId": 1,
+      "subject": "Lilo",
+      "action": "posted an",
+      "object": "image",
+      "owner": "Stitch's",
+      "date": 1658661075312,
+      "likes": [
+        "caren",
+        "Tyler",
+        "Josh",
+        "Chantalle",
+        "Jasper",
+        "آیلین"
+      ],
+      "id": 1
+    },
+    {
+      "id": 5,
+      "userId": 4,
+      "subject": "Zoro",
+      "action": "posted an",
+      "object": "image",
+      "owner": "Zoro",
+      "image": "https://images.pexels.com/photos/464362/pexels-photo-464362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "date": 1657115951605,
+      "likes": [
+        "Coco, Mary"
+      ],
+      "comments": [
         {
-            "id": 1,
-            "username": "Kenya",
-            "profilePicture": "https://images.pexels.com/photos/137132/pexels-photo-137132.jpeg?auto=compress&cs=tinysrgb&w=1600"
-        },
-        {
-            "id": 2,
-            "username": "Norway",
-            "profilePicture": "https://images.pexels.com/photos/261031/pexels-photo-261031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-
-        },
-        {
-            "id": 3,
-            "username": "India",
-            "profilePicture": "https://images.pexels.com/photos/754104/pexels-photo-754104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-
-        },
-        {
-            "id": 4,
-            "username": "Ethiopia",
-            "profilePicture": "https://images.pexels.com/photos/261403/pexels-photo-261403.jpeg?auto=compress&cs=tinysrgb&w=1600"
-
-        },
-        {
-            "id": 5,
-            "username": "Egypt",
-            "profilePicture": "https://images.pexels.com/photos/533937/pexels-photo-533937.jpeg?auto=compress&cs=tinysrgb&w=1600"
-
-        }        
-
-    ],
-    "posts": [
-        {
-            "id": 1,
-            "userId": 1,
-            "activity":"Kenya posted a new image",
-            "image":"https://images.pexels.com/photos/1266831/pexels-photo-1266831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-
-
-
-        },
-        {
-
-        },
-        {
-
-        },
-        {
-
+          "comment": "Bucket list cleared...innit?",
+          "commentor": "Lilo"
         }
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 0,
+      "subject": "Zoro",
+      "action": "commented on",
+      "object": "image",
+      "owner": "Coco",
+      "info": "",
+      "message": "Cute..",
+      "date": 1658635951605
+    },
+    {
+      "id": 5,
+      "userId": 4,
+      "subject": "Coco",
+      "action": "posted an",
+      "object": "image",
+      "owner": "Coco",
+      "image": "https://images.pexels.com/photos/5985371/pexels-photo-5985371.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "date": 1658635951605,
+      "likes": [
+        "Coco, Mary"
+      ],
+      "comments": [
+        {
+          "comment": "Cute",
+          "commenter": "Zoro"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "subject": "Stitch",
+      "action": "liked",
+      "upvote": "",
+      "owner": "Zoro",
+      "object": "image",
+      "date": 1657125955605
+    },
+    {
+      "userId": 0,
+      "subject": "Greg",
+      "action": "posted an",
+      "owner": "Greg",
+      "object": "image",
+      "image": "https://images.pexels.com/photos/1974203/pexels-photo-1974203.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "date": 1658661075116,
+      "likes": [
+        "Coco",
+        "Lilo",
+        "Ronald",
+        "Ronald",
+        "Ronald"
+      ],
+      "comments": [
+       
+        {
+          "comment": "hey",
+          "commenter": "Irene"
+        },
+        {
+          "comment": "two",
+          "commenter": "Charl"
+        },
+        {
+          "comment": "cute",
+          "commenter": "Diana"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "id": 10,
+      "userId": 0,
+      "subject": "Greg",
+      "action": "liked",
+      "upvote": "",
+      "owner": "Coco",
+      "object": "image",
+      "date": 1657115951606
+    },
+    {
+      "id": 9,
+      "userId": 0,
+      "subject": "Lilo",
+      "action": "posted an",
+      "object": "image",
+      "owner": "Lilo",
+      "image": "https://images.pexels.com/photos/6766352/pexels-photo-6766352.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "date": 1657115951608,
+      "likes": [],
+      "comments": []
+    },
+    {
+      "userId": "",
+      "subject": "Vito",
+      "action": "posted an",
+      "object": "image",
+      "owner": "Lilo",
+      "date": 1658650246376,
+      "likes": [
+        "Coco, Mary",
+        "Devon",
+        "Vito"
+      ],
+      "id": 7
+    },
+    {
+      "id": 11,
+      "userId": 0,
+      "subject": "Greg",
+      "action": "commented on",
+      "object": "image",
+      "owner": "Zoro",
+      "info": " ",
+      "message": "Skills man!",
+      "date": 1657115955475
+    }
+  ]
 }
