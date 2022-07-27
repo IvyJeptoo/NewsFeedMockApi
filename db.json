@@ -28,8 +28,7 @@
   ],
   "feedActivity": [
     {
-      "id": 2,
-      "userId": 0,
+      "id": 1,
       "subject": "Lilo",
       "action": "commented on",
       "object": "image",
@@ -39,8 +38,7 @@
       "date": 1658635951605
     },
     {
-      "id": 4,
-      "userId": 1,
+      "id": 2,
       "subject": "Lilo",
       "action": "liked",
       "upvote": "",
@@ -49,7 +47,6 @@
       "date": 1658655877207
     },
     {
-      "userId": 1,
       "subject": "Lilo",
       "action": "posted an",
       "object": "image",
@@ -63,15 +60,12 @@
         "Jasper",
         "آیلین"
       ],
-      "id": 1
+      "id": 3
     },
     {
-      "id": 5,
-      "userId": 4,
       "subject": "Zoro",
       "action": "posted an",
       "object": "image",
-      "owner": "Zoro",
       "image": "https://images.pexels.com/photos/464362/pexels-photo-464362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "date": 1657115951605,
       "likes": [
@@ -79,14 +73,15 @@
       ],
       "comments": [
         {
-          "comment": "Bucket list cleared...innit?",
-          "commentor": "Lilo"
+          "comment": "Wow Beautiful!",
+          "commenter": "Lilo"
         }
-      ]
+        
+      ],
+      "id": 4
     },
     {
-      "id": 2,
-      "userId": 0,
+      "id": 5,
       "subject": "Zoro",
       "action": "commented on",
       "object": "image",
@@ -96,27 +91,27 @@
       "date": 1658635951605
     },
     {
-      "id": 5,
-      "userId": 4,
       "subject": "Coco",
       "action": "posted an",
       "object": "image",
-      "owner": "Coco",
       "image": "https://images.pexels.com/photos/5985371/pexels-photo-5985371.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "date": 1658635951605,
       "likes": [
-        "Coco, Mary"
+        "Coco, Mary",
+        "Lotta",
+        "Renzo"
       ],
       "comments": [
         {
-          "comment": "Cute",
+          "comment": "cute",
           "commenter": "Zoro"
         }
-      ]
+       
+      ],
+      "id": 6
     },
     {
-      "id": 4,
-      "userId": 1,
+      "id": 7,
       "subject": "Stitch",
       "action": "liked",
       "upvote": "",
@@ -125,10 +120,8 @@
       "date": 1657125955605
     },
     {
-      "userId": 0,
       "subject": "Greg",
       "action": "posted an",
-      "owner": "Greg",
       "object": "image",
       "image": "https://images.pexels.com/photos/1974203/pexels-photo-1974203.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "date": 1658661075116,
@@ -136,29 +129,16 @@
         "Coco",
         "Lilo",
         "Ronald",
-        "Ronald",
         "Ronald"
+        
       ],
       "comments": [
-       
-        {
-          "comment": "hey",
-          "commenter": "Irene"
-        },
-        {
-          "comment": "two",
-          "commenter": "Charl"
-        },
-        {
-          "comment": "cute",
-          "commenter": "Diana"
-        }
+        
       ],
-      "id": 9
+      "id": 8
     },
     {
-      "id": 10,
-      "userId": 0,
+      "id": 9,
       "subject": "Greg",
       "action": "liked",
       "upvote": "",
@@ -167,41 +147,16 @@
       "date": 1657115951606
     },
     {
-      "id": 9,
-      "userId": 0,
       "subject": "Lilo",
       "action": "posted an",
       "object": "image",
-      "owner": "Lilo",
       "image": "https://images.pexels.com/photos/6766352/pexels-photo-6766352.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "date": 1657115951608,
       "likes": [],
-      "comments": []
-    },
-    {
-      "userId": "",
-      "subject": "Vito",
-      "action": "posted an",
-      "object": "image",
-      "owner": "Lilo",
-      "date": 1658650246376,
-      "likes": [
-        "Coco, Mary",
-        "Devon",
-        "Vito"
+      "comments": [
+       
       ],
-      "id": 7
-    },
-    {
-      "id": 11,
-      "userId": 0,
-      "subject": "Greg",
-      "action": "commented on",
-      "object": "image",
-      "owner": "Zoro",
-      "info": " ",
-      "message": "Skills man!",
-      "date": 1657115955475
+      "id": 10
     }
   ]
 }
