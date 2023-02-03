@@ -26,7 +26,7 @@
       "profilePicture": "https://images.pexels.com/photos/533937/pexels-photo-533937.jpeg?auto=compress&cs=tinysrgb&w=1600"
     }
   ],
-  "feedActivity": [
+  "feed-activity": [
     {
       "id": 1,
       "subject": "Lilo",
@@ -75,8 +75,15 @@
         {
           "comment": "Wow Beautiful!",
           "commenter": "Lilo"
+        },
+        {
+          "comment": "coast",
+          "commenter": "Isobel"
+        },
+        {
+          "comment": "syke",
+          "commenter": "Eléonore"
         }
-        
       ],
       "id": 4
     },
@@ -106,7 +113,6 @@
           "comment": "cute",
           "commenter": "Zoro"
         }
-       
       ],
       "id": 6
     },
@@ -129,11 +135,15 @@
         "Coco",
         "Lilo",
         "Ronald",
-        "Ronald"
-        
+        "Ronald",
+        "Rafaëla",
+        "Beatrice"
       ],
       "comments": [
-        
+        {
+          "comment": "coast",
+          "commenter": "Max"
+        }
       ],
       "id": 8
     },
@@ -153,9 +163,7 @@
       "image": "https://images.pexels.com/photos/6766352/pexels-photo-6766352.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "date": 1657115951608,
       "likes": [],
-      "comments": [
-       
-      ],
+      "comments": [],
       "id": 10
     }
   ]
